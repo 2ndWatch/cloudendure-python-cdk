@@ -6,17 +6,17 @@ with open("README.md") as fp:
 
 
 setuptools.setup(
-    name="hello",
+    name="cloudendure-python-cdk",
     version="0.0.1",
 
-    description="A sample CDK Python app",
+    description="A sample CDK Python application for step functions",
     long_description=long_description,
     long_description_content_type="text/markdown",
 
     author="author",
 
-    package_dir={"": "hello"},
-    packages=setuptools.find_packages(where="hello"),
+    package_dir={"": "cloudendure"},
+    packages=setuptools.find_packages(where="cloudendure"),
 
     install_requires=[
         "aws-cdk.core",
